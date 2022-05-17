@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    text-align: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  height: 47px;
+  min-width: 700px;
+  align-items: center;
+  font-size: 16px;
+}
+
+#menu ul {
+  min-width: 615px;
+}
+
+#menu ul li {
+  display: inline;
+}
+
+#menu ul li a {
+  /* display: inline-block; */
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  transition: background .3s;
+}
+
+#menu ul li a:hover {
+  background-color: #006050;
+}
+
+.exemplo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 23vw;
+    height: 30vw;
+    border-radius: 8px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  h1, h2{
+    margin: 2vh 0 2vh;
+    color:#10695c;
+  }
+
+  h4{
+    padding: 1vh;
+  }
+
+  ul{
+    list-style-position: inside;
+  }
+
+  #modo-escrita{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .horizontal-tb{
+    border: solid;
+    width: 30vw;
+    height: 10vh;
+    writing-mode:horizontal-tb;
+  }
+
+  .vertical-lr{
+    border: solid;
+    width: 30vw;
+    height: 10vh;
+    writing-mode:vertical-lr;
+  }
+
+  .vertical-rl{
+    border: solid;
+    width: 30vw;
+    height: 10vh;
+    writing-mode:vertical-rl;
+  }
